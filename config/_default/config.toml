@@ -1,5 +1,6 @@
 # Change baseurl before deploy
-baseurl = "unili.eu.org"
+# baseurl = "unili.eu.org"
+baseurl = "/"
 languageCode = "zh-cn"
 paginate = 5
 title = "Unili's Blog"
