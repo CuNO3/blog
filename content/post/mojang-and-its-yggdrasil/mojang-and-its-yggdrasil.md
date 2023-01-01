@@ -1,5 +1,5 @@
 ---
-title: 'Mojang and its Yggdrasil'
+title: Mojang and its Yggdrasil
 date: 2023-01-01T17:18:05+01:00
 description: All the things about Yggdrasil API
 slug: mojang-and-its-yggdrasil

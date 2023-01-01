@@ -1,43 +1,97 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Hugo Theme Stack Starter</title>
-        <link>https://demo.stack.jimmycai.com/</link>
-        <description>Recent content on Hugo Theme Stack Starter</description>
+        <title>Welcome to Unili&#39;s Blog</title>
+        <link>unili.eu.org/</link>
+        <description>Recent content on Welcome to Unili&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="unili.eu.org/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>https://demo.stack.jimmycai.com/archives/</link>
+        <link>unili.eu.org/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/archives/</guid>
+        <guid>unili.eu.org/archives/</guid>
         <description></description>
         </item>
         <item>
-        <title>Hello World</title>
-        <link>https://demo.stack.jimmycai.com/p/hello-world/</link>
+        <title>Mojang and its Yggdrasil</title>
+        <link>unili.eu.org/p/mojang-and-its-yggdrasil/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/hello-world/</guid>
-        <description>&lt;img src="https://demo.stack.jimmycai.com/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
-&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://docs.stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+        <guid>unili.eu.org/p/mojang-and-its-yggdrasil/</guid>
+        <description>&lt;img src="/unili.eu.org/cover.png" alt="Featured image of post Mojang and its Yggdrasil" /&gt;&lt;h1 id=&#34;mojang-and-its-yggdrasil-api&#34;&gt;Mojang and its Yggdrasil API&lt;/h1&gt;
+&lt;p&gt;这篇文章是Mojang Yggdrasil API的入门教程。&lt;br&gt;
+Yggdrasil是Mojang的（老）身份验证API，用于验证用户身份并获取用户信息。&lt;br&gt;
+鉴于中文文档太少所以才有了本篇文章。&lt;/p&gt;
+&lt;h3 id=&#34;related-documents&#34;&gt;Related Documents&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yushijinhun/authlib-injector/wiki&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Authlib Injector Wiki&lt;/a&gt;&lt;br&gt;
+以下均为英文文档，英文不好的不要看了。&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://wiki.vg/Authentication&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wiki.vg&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://mojang-api-docs.netlify.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mojang API Documentation&lt;/a&gt;&lt;br&gt;
+注：后面这个已失效，原文档fork位于&lt;a class=&#34;link&#34; href=&#34;yggdrasil-docs.netlify.app/&#34; &gt;这里&lt;/a&gt;,(还没有建成)&lt;/p&gt;
+&lt;h3 id=&#34;需要的知识&#34;&gt;需要的知识&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;HTTP协议&lt;/li&gt;
+&lt;li&gt;JSON格式&lt;/li&gt;
+&lt;li&gt;Java基础 （可选）（帮助你理解API里有些Java风格的东西）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;开始第一个问题yggdrasil你为毛要了解它&#34;&gt;开始：第一个问题：Yggdrasil，你为毛要了解它&lt;/h3&gt;
+&lt;p&gt;如果你在学习和Minecraft有关的编程（Mod，Plugin，Server和其他的啥玩意），那么你迟早有一天会碰到Yggdrasil。&lt;/p&gt;
+&lt;h3 id=&#34;什么是yggdrasil&#34;&gt;什么是Yggdrasil&lt;/h3&gt;
+&lt;p&gt;我前面已经说过一遍：Yggdrasil是Mojang的（老）身份验证API，用于验证用户身份并获取用户信息。这个“老”是指之后还有一个巨硬收购后的微软账户登陆。它不是年龄最老的（去看wikivg你会知道还有1.6之前的另外一套系统），但是绝对是资格最老的。&lt;/p&gt;
+&lt;h3 id=&#34;它的流程&#34;&gt;它的流程？&lt;/h3&gt;
+&lt;p&gt;一般来说是这样的:&lt;br&gt;
+向服务器端点发送POST请求,带有载荷(根据请求不同可以是AccessToken, ClientToken, Username, Password或者其他信息)&lt;br&gt;
+随后服务器端点返回一个JSON格式的响应,可能包含AccessToken,User等信息&lt;/p&gt;
+&lt;h3 id=&#34;标准的错误处理&#34;&gt;标准的错误处理?&lt;/h3&gt;
+&lt;p&gt;如果请求失败,服务器端点会返回一个HTTP状态码,并且在响应体中包含一个JSON格式的错误信息,包含错误代码和错误信息&lt;br&gt;
+JSON格式如这样:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;error&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;错误代码&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;errorMessage&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;错误信息&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;cause&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;可选的原因&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;一些常见的错误代码&#34;&gt;一些常见的错误代码&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ForbiddenOperationException: 服务器端点不支持该操作&lt;/li&gt;
+&lt;li&gt;IllegalArgumentException: 请求中包含了不合法的参数&lt;/li&gt;
+&lt;li&gt;UserMigratedException: 用户已经迁移到微软账户&lt;/li&gt;
+&lt;li&gt;UserNotFoundException: 用户不存在&lt;/li&gt;
+&lt;li&gt;InvalidCredentialsException: 用户名或密码错误&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;什么是uuid&#34;&gt;什么是UUID?&lt;/h3&gt;
+&lt;p&gt;UUID(Universally Unique Identifier),由ISO提出.&lt;br&gt;
+在Minecraft里用于标明角色和实体.UUID对于每个角色来说是唯一的标识符.Minecraft里广泛应用了UUID用以判断交互.&lt;br&gt;
+目前的UUID生成遵循&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_%28random%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Version 4&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;什么是jwt&#34;&gt;什么是JWT&lt;/h3&gt;
+&lt;p&gt;你可能会看到这个词,JWT(JSON Web Token),一种传递JSON令牌的编码格式,定义于&lt;a class=&#34;link&#34; href=&#34;https://tools.ietf.org/html/rfc7519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RFC 7519&lt;/a&gt;,有关信息可以在&lt;a class=&#34;link&#34; href=&#34;https://jwt.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;JWT.IO&lt;/a&gt;查到.&lt;/p&gt;
+&lt;h3 id=&#34;剩余部分过几天继续更&#34;&gt;剩余部分过几天继续更&lt;/h3&gt;
 </description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://demo.stack.jimmycai.com/links/</link>
+        <link>unili.eu.org/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/links/</guid>
+        <guid>unili.eu.org/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -69,10 +123,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://demo.stack.jimmycai.com/search/</link>
+        <link>unili.eu.org/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/search/</guid>
+        <guid>unili.eu.org/search/</guid>
         <description></description>
         </item>
         
