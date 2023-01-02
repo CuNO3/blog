@@ -1,7 +1,7 @@
 ---
-title: Mojang和Yggdrasil
+title: Mojang and its Yggdrasil
 date: 2023-01-01 17:18:05+0000
-description: 一切关于Yggdrasil的事情
+description: All the things about Yggdrasil API
 slug: mojang-and-its-yggdrasil
 image: cover.png
 categories:
