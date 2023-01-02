@@ -2,74 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>unili.eu.org/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="unili.eu.org/en/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="unili.eu.org/"
+                href="/"
                 />
   </url><url>
-    <loc>unili.eu.org/archives/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>unili.eu.org/categories/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="unili.eu.org/en/categories/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="unili.eu.org/categories/"
+                href="/categories/"
                 />
   </url><url>
-    <loc>unili.eu.org/tags/free/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>/tags/free/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>unili.eu.org/p/lets-get-some-free-things/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>unili.eu.org/tags/minecraft/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>/categories/share/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>unili.eu.org/p/mojang-and-its-yggdrasil/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>unili.eu.org/page/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>unili.eu.org/post/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>unili.eu.org/categories/share/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>unili.eu.org/tags/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="unili.eu.org/en/tags/"
+                href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="unili.eu.org/tags/"
+                href="/tags/"
                 />
   </url><url>
-    <loc>unili.eu.org/categories/tech/</loc>
+    <loc>/categories/tech/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/p/lets-get-some-free-things/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/minecraft/</loc>
+    <lastmod>2023-01-01T17:18:05+00:00</lastmod>
+  </url><url>
+    <loc>/p/mojang-and-its-yggdrasil/</loc>
+    <lastmod>2023-01-01T17:18:05+00:00</lastmod>
+  </url><url>
+    <loc>/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>unili.eu.org/links/</loc>
+    <loc>/page/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>unili.eu.org/search/</loc>
+    <loc>/links/</loc>
+  </url><url>
+    <loc>/search/</loc>
   </url>
 </urlset>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Minecraft on Welcome to Unili&#39;s Blog</title>
-        <link>unili.eu.org/tags/minecraft/</link>
-        <description>Recent content in Minecraft on Welcome to Unili&#39;s Blog</description>
+        <title>Minecraft on Unili&#39;s Blog</title>
+        <link>/tags/minecraft/</link>
+        <description>Recent content in Minecraft on Unili&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="unili.eu.org/tags/minecraft/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Mojang and its Yggdrasil</title>
-        <link>unili.eu.org/p/mojang-and-its-yggdrasil/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <lastBuildDate>Sun, 01 Jan 2023 17:18:05 +0000</lastBuildDate><atom:link href="/tags/minecraft/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mojang和Yggdrasil</title>
+        <link>/p/mojang-and-its-yggdrasil/</link>
+        <pubDate>Sun, 01 Jan 2023 17:18:05 +0000</pubDate>
         
-        <guid>unili.eu.org/p/mojang-and-its-yggdrasil/</guid>
-        <description>&lt;img src="/unili.eu.org/p/mojang-and-its-yggdrasil/cover.png" alt="Featured image of post Mojang and its Yggdrasil" /&gt;&lt;h1 id=&#34;mojang-and-its-yggdrasil-api&#34;&gt;Mojang and its Yggdrasil API&lt;/h1&gt;
+        <guid>/p/mojang-and-its-yggdrasil/</guid>
+        <description>&lt;img src="/p/mojang-and-its-yggdrasil/cover.png" alt="Featured image of post Mojang和Yggdrasil" /&gt;&lt;h1 id=&#34;mojang-and-its-yggdrasil-api&#34;&gt;Mojang and its Yggdrasil API&lt;/h1&gt;
 &lt;p&gt;这篇文章是Mojang Yggdrasil API的入门教程。&lt;br&gt;
 Yggdrasil是Mojang的（老）身份验证API，用于验证用户身份并获取用户信息。&lt;br&gt;
 鉴于中文文档太少所以才有了本篇文章。&lt;/p&gt;
