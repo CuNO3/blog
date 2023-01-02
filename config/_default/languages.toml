@@ -3,11 +3,11 @@
 [en]
 languageName = "English"
 languagedirection = "ltr"
-title = "Welcome to Unili's Blog"
+title = "Unili's Blog"
 weight = 1
 
 [zh-cn]
 languageName = "Chinese"
 languagedirection = "ltr"
-title = "Welcome to Unili's Blog"
+title = "Unili's Blog"
 weight = 1
