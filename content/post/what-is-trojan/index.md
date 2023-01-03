@@ -1,7 +1,7 @@
 ---
 title: 为毛Trojan躲过了强墙
 date: 2023-01-01 17:18:05+0000
-description: 一切关于Yggdrasil的事情
+description: Trojan, 一种新的代理协议
 slug: what-is-trojan
 image: cover.jpg
 categories:
@@ -19,8 +19,7 @@ Trojan, 一种新的代理协议, 和来自V2Fly的VMess/VLESS协议相比较, T
 
 ### SoH
 在认识Trojan前先讨论SoH(Shadowsocks on HTTPS), 通过在HTTPS上建立Shadowsocks连接来规避墙.  
-因为SoH相当于一个HTTPS连接, 墙很难探测出你访问的到底是真实网站 or Shadowsocks. 也不能把所有HTTPS都搞掉.  
-就此SoH规避了墙. 这种方法仍然可能被攻击(例如如果真的想搞的话可以利用国家力量签发假证书搞大范围的中间人攻击,那样的话所有运行在TLS层上的连接都相当于可见范围), 但不属于谈论范围.  
+因为SoH相当于一个HTTPS连接, 墙很难探测出你访问的到底是真实网站 or Shadowsocks. 也不能把所有HTTPS都搞掉, 就此, SoH规避了墙.  
 
 ### Trojan
 Trojan更加安全, 让我们先来说说结构  
