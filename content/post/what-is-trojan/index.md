@@ -41,7 +41,7 @@ Trojan Request包括以下内容
 - CMD, 1字节, 0x01为CONNECT, 0x03为UDP ASSOCIATE
 - ATYPE, Address Type, 1字节, 0x01为IPv4, 0x03为域名, 0x04为IPv6
 - DST.ADDR, 目标地址
-- DST.PORT, 目标端口
+- DST.PORT, 目标端口  
 可以说, Trojan协议简洁却不失强大, 能够实现日常的大多数浏览需求.
 
 ### 参考材料
